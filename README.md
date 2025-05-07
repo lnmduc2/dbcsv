@@ -56,7 +56,7 @@ conn = dbcsv.connect(
 cursor = conn.cursor()
 
 # Execute an SQL query
-cursor.execute('Select * from table1 where id > 4 or (id < 3 AND age > 30')
+cursor.execute('Select * from table1 where id > 4 or (id < 3 AND age > 30)')
 
 # Fetch one result row
 row = cursor.fetchone()
@@ -121,4 +121,4 @@ The system currently supports the following SQL statements:
 
 ### Test the source code with Pytest
 
-Refer to the file `server/dbcsv/tests/unit/dbapi2/test_dbapi2.py` and `server/dbcsv/tests/integration/test_fullbaseline.py`
+Refer to the file `server/tests/unit/dbapi2/test_dbapi2.py` and `server/tests/integration/test_fullbaseline.py`
