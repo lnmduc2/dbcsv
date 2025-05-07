@@ -1,0 +1,6 @@
+id,name,age,email,score,is_member,join_date,last_login,remarks
+1,John Doe,28,john.doe@example.com,85.5,true,2023-01-15,2023-04-20,Excellent performer
+2,Jane Smith,34,jane.smith@example.com,90.0,false,2022-11-03,2023-05-01,null
+3,Michael Brown,22,michael.brown@example.com,77.25,true,2024-05-10,2024-05-15,Promoted
+4,Emily Davis,29,emily.davis@example.com,88.0,false,2021-09-12,2022-12-30,null
+5,Chris Wilson,31,chris.wilson@example.com,95.75,true,2025-02-20,2025-03-25,High potential

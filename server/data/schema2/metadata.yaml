@@ -1,0 +1,21 @@
+tables:
+  - table_name: table1
+    columns:
+      - column_name: id
+        column_type: INT
+      - column_name: name
+        column_type: VARCHAR
+      - column_name: age
+        column_type: INT
+      - column_name: email
+        column_type: VARCHAR
+      - column_name: score
+        column_type: FLOAT
+      - column_name: is_member
+        column_type: BOOLEAN
+      - column_name: join_date
+        column_type: DATE
+      - column_name: last_login
+        column_type: DATETIME
+      - column_name: remarks
+        column_type: VARCHAR # nội dung có thể là chuỗi hoặc "null"
